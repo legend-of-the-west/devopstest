@@ -26,5 +26,6 @@ My best friends in this whole test were official KeyCloak and Infinispan documen
 Also we can not forget that having good music while working is a must, here are the ones that made me feel like a main character while learning new things and working on this:
 - https://www.youtube.com/watch?v=tGeYmC9bK68
 - https://www.youtube.com/watch?v=QFvt2cNSOaM
+- https://www.youtube.com/watch?v=6NQUbFiUYRw
 - https://www.youtube.com/watch?v=McnMsFwZlvA
 - https://www.youtube.com/watch?v=6U6MZC-iRyo
