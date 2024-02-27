@@ -1,4 +1,4 @@
-# Devopstest
+# DevOpsTest
 
 1. Install and setup minikube: https://minikube.sigs.k8s.io/docs/start/ and I will be using vanilla Kubernetes for my whole test
 2. Creating a profile for creating instances that can be used for both Infinispan and Keycloak
