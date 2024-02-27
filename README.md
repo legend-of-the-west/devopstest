@@ -11,15 +11,15 @@
 also checked out both: https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes and https://www.keycloak.org/high-availability/deploy-infinispan-kubernetes-crossdc
 
 Some additional and useful documention that I used that helped me understand things more: 
-https://www.keycloak.org/getting-started/getting-started-kube
-https://www.keycloak.org/server/db
-https://www.keycloak.org/server/keycloak-truststore
-https://kubernetes.io/docs/tutorials/hello-minikube/
-https://infinispan.org/docs/stable/titles/xsite/xsite.html
-https://dev.to/cockroachlabs/simulating-a-multi-region-cockroachdb-cluster-on-kubernetes-with-minikube-4jd9 (it is a different DB used here, but wanted to see how to create regions with MiniKube)
-https://infinispan.org/docs/stable/titles/xsite/xsite.html
-https://infinispan.org/docs/infinispan-operator/main/operator.html#securing-cross-site-connections_cross-site
-https://infinispan.org/docs/infinispan-operator/main/operator.html#creating-caches
+- https://www.keycloak.org/getting-started/getting-started-kube
+- https://www.keycloak.org/server/db
+- https://www.keycloak.org/server/keycloak-truststore
+- https://kubernetes.io/docs/tutorials/hello-minikube/
+- https://infinispan.org/docs/stable/titles/xsite/xsite.html
+- https://dev.to/cockroachlabs/simulating-a-multi-region-cockroachdb-cluster-on-kubernetes-with-minikube-4jd9 (it is a different DB used here, but wanted to see how to create regions with MiniKube)
+- https://infinispan.org/docs/stable/titles/xsite/xsite.html
+- https://infinispan.org/docs/infinispan-operator/main/operator.html#securing-cross-site-connections_cross-site
+- https://infinispan.org/docs/infinispan-operator/main/operator.html#creating-caches
 
 
 My best friends in this whole test were official KeyCloak and Infinispan documentions, but you still have to check if they are not outdated, if yes, forums and GitHub discussions are your next best friends.
