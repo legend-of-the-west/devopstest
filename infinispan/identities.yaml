@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+type: Opaque
+metadata:
+  name: connect-secret
+  namespace: keycloak
+data:
+  identities.yaml: Y3JlZGVudGlhbHM6CiAgLSB1c2VybmFtZTogZGV2ZWxvcGVyCiAgICBwYXNzd29yZDogc3Ryb25nLXBhc3N3b3JkCiAgICByb2xlczoKICAgICAgLSBhZG1pbgo= 
