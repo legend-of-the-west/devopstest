@@ -1,0 +1,27 @@
+<distributed-cache name="sessions" owners="2" statistics="true">
+    <expiration lifespan="-1"/>
+    <persistence passivation="false"> 
+        <remote-store xmlns="urn:infinispan:config:store:remote:14.0"
+                      cache="sessions"
+                      raw-values="true"
+                      shared="true"
+                      segmented="false">
+            <remote-server host="${env.KC_REMOTE_STORE_HOST}"
+                           port="${env.KC_REMOTE_STORE_PORT}"/> 
+            <connection-pool max-active="16"
+                             exhausted-action="CREATE_NEW"/>
+            <security>
+                <authentication server-name="infinispan">
+                    <digest username="${env.KC_REMOTE_STORE_USERNAME}"
+                            password="${env.KC_REMOTE_STORE_PASSWORD}"
+                            realm="default"/> 
+                </authentication>
+                <encryption protocol="TLSv1.3"
+                            sni-hostname="${env.KC_REMOTE_STORE_HOST}">
+                    <truststore filename="/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt"
+                                type="pem"/> 
+                </encryption>
+            </security>
+        </remote-store>
+    </persistence>
+</distributed-cache>
