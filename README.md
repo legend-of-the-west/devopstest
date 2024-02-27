@@ -24,6 +24,6 @@ https://infinispan.org/docs/infinispan-operator/main/operator.html#creating-cach
 
 My best friends in this whole test were official KeyCloak and Infinispan documentions, but you still have to check if they are not outdated, if yes, forums and GitHub discussions are your next best friends.
 Also we can not forget that having good music while working is a must, here are the ones that made me feel like a main character while learning new things and working on this:
-https://www.youtube.com/watch?v=tGeYmC9bK68
-https://www.youtube.com/watch?v=QFvt2cNSOaM
-https://www.youtube.com/watch?v=McnMsFwZlvA
+- https://www.youtube.com/watch?v=tGeYmC9bK68
+- https://www.youtube.com/watch?v=QFvt2cNSOaM
+- https://www.youtube.com/watch?v=McnMsFwZlvA
