@@ -14,3 +14,5 @@ Some additional and useful documention that I used:
 https://infinispan.org/docs/stable/titles/xsite/xsite.html
 https://dev.to/cockroachlabs/simulating-a-multi-region-cockroachdb-cluster-on-kubernetes-with-minikube-4jd9 (it is a different DB used here, but wanted to see how to create regions with MiniKube)
 https://infinispan.org/docs/infinispan-operator/main/operator.html#securing-cross-site-connections_cross-site
+
+My best friends in this whole test were official KeyCloak and Infinispan documentions, but you still have to check if they are not outdated, if yes, forums and GitHub discussions are your next best friends.
