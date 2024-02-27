@@ -7,7 +7,7 @@
 5. After that moved to: https://www.keycloak.org/operator/basic-deployment where I setup my database(I used PostgreSQL like in the documentation), hostname and certificates
 6. It looks like that the official documention was probably outdated and caused me some issue with accessing the site, so I found this discussion and tweak my files a bit: [https://github.com/keycloak/keycloak/issues/14666#issuecomment-1461028049](https://github.com/keycloak/keycloak/issues/14666#issuecomment-1461028049)
 7. Running the tunnel and opening the link https://test.keycloak.org:8443 and getting the main page of the Keycloak
-8. Tried setting up the caching while using the official documention: https://www.keycloak.org/high-availability/connect-keycloak-to-external-infinispan and also since it is still a feature that is in preview I also was checking out the discussion and tracking it how it work for other people too(especially since it cover more IRL sutiations rather than just dev testing): https://github.com/keycloak/keycloak/discussions/25269
+8. Tried setting up the caching while using the official documention: https://www.keycloak.org/high-availability/connect-keycloak-to-external-infinispan and also since it is still a feature that is in preview I also was checking out the discussion and tracking it how it work for other people too(especially since it cover more IRL situations rather than just basic dev testing): https://github.com/keycloak/keycloak/discussions/25269
 also checked out both: https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes and https://www.keycloak.org/high-availability/deploy-infinispan-kubernetes-crossdc
 
 Some additional and useful documention that I used: 
