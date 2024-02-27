@@ -10,7 +10,7 @@
 8. Tried setting up the caching while using the official documention: https://www.keycloak.org/high-availability/connect-keycloak-to-external-infinispan and also since it is still a feature that is in preview I also was checking out the discussion and tracking it how it work for other people too(especially since it cover more IRL situations rather than just basic dev testing): https://github.com/keycloak/keycloak/discussions/25269
 also checked out both: https://www.keycloak.org/high-availability/deploy-keycloak-kubernetes and https://www.keycloak.org/high-availability/deploy-infinispan-kubernetes-crossdc
 
-Some additional and useful documention that I used: 
+Some additional and useful documention that I used that helped me understand things more: 
 https://infinispan.org/docs/stable/titles/xsite/xsite.html
 https://dev.to/cockroachlabs/simulating-a-multi-region-cockroachdb-cluster-on-kubernetes-with-minikube-4jd9 (it is a different DB used here, but wanted to see how to create regions with MiniKube)
 https://infinispan.org/docs/infinispan-operator/main/operator.html#securing-cross-site-connections_cross-site
